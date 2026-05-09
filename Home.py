@@ -21,11 +21,22 @@ res = df.iloc[0]
 
 # 3. Encabezado y Storytelling
 st.title("📈 Strategic Impact: Pilot Simulation")
-st.markdown("### From Operational Chaos to Financial Certainty")
-st.write("For SMEs in Southern Europe, inventory is frozen liquidity. This simulation shows how our engine turns logistics into a profit center.
-Industrial SMEs in Southern Europe (Pharma, Food, Chemicals) face a "Competitive Gap" due to manual, error-prone inventory audits. High-end sensor technology is often unaffordable, leading to "Phantom Inventory" and poor cash flow management.
-Therefore, We developed an accessible, high-precision reconciliation platform to improve Order Fulfillment and reduce operational costs without the million-euro price tag of Tier-1 enterprise solutions.
-I engineered a multi-layered system that bridges the gap between hardware and business intelligence building a secure pipeline to cross-reference disparate sensor data, I implemented a data-cleaning layer to homogenize "noisy" industrial inputs into actionable tables, and Designed a financial modeling tool to visualize Payback Periods and Shrinkage Recovery, facilitating C-level decision-making in conservative markets.")
+st.subheader("From Operational Chaos to Financial Certainty")
+
+# Usamos triple comilla para permitir saltos de línea y comillas internas
+st.markdown("""
+### The Challenge
+Industrial SMEs in Southern Europe (Pharma, Food, Chemicals) face a **'Competitive Gap'** due to manual, error-prone inventory audits. High-end sensor technology is often unaffordable, leading to **'Phantom Inventory'** and poor cash flow management.
+
+### Our Solution
+We developed an accessible, high-precision reconciliation platform to improve **Order Fulfillment** and reduce operational costs—delivering Tier-1 results without the million-euro price tag.
+
+### Engineering Leadership
+I engineered a multi-layered system that bridges the gap between hardware and business intelligence:
+* **Data Pipeline:** Built a secure architecture to cross-reference disparate sensor data.
+* **AI Data Cleaning:** Implemented a layer to homogenize 'noisy' industrial inputs into actionable, clean tables.
+* **Financial Modeling:** Designed a simulation tool to visualize **Payback Periods** and **Shrinkage Recovery**, facilitating C-level decision-making in conservative markets.
+""")
 
 st.divider()
 
