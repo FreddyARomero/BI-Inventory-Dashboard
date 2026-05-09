@@ -1,4 +1,6 @@
 import streamlit as st
+import pandas as pd
+import io
 
 def show_storytelling_section(res):
     st.header("The ROI Story: Why this investment makes sense")
