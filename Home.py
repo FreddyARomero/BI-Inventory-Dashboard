@@ -22,7 +22,10 @@ res = df.iloc[0]
 # 3. Encabezado y Storytelling
 st.title("📈 Strategic Impact: Pilot Simulation")
 st.markdown("### From Operational Chaos to Financial Certainty")
-st.write("For SMEs in Southern Europe, inventory is frozen liquidity. This simulation shows how our engine turns logistics into a profit center.")
+st.write("For SMEs in Southern Europe, inventory is frozen liquidity. This simulation shows how our engine turns logistics into a profit center.
+Industrial SMEs in Southern Europe (Pharma, Food, Chemicals) face a "Competitive Gap" due to manual, error-prone inventory audits. High-end sensor technology is often unaffordable, leading to "Phantom Inventory" and poor cash flow management.
+Therefore, We developed an accessible, high-precision reconciliation platform to improve Order Fulfillment and reduce operational costs without the million-euro price tag of Tier-1 enterprise solutions.
+I engineered a multi-layered system that bridges the gap between hardware and business intelligence building a secure pipeline to cross-reference disparate sensor data, I implemented a data-cleaning layer to homogenize "noisy" industrial inputs into actionable tables, and Designed a financial modeling tool to visualize Payback Periods and Shrinkage Recovery, facilitating C-level decision-making in conservative markets.")
 
 st.divider()
 
